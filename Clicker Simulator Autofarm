@@ -1,0 +1,29 @@
+local plr = game.Players.LocalPlayer
+local ownerId = 235585960
+local version = "v0.1"
+
+print(
+    "Developer notes:"
+    "Current version is"..version..", "
+    "Credits: darkhalo#7833"
+    "Your username is "..plr.Name.." and your userid is "..plr.UserId..", you are currently playing "..game.Name
+    "Thank you for using my script!"
+)
+
+--[[
+╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╭╮╱╱╱╭╮╱╱╱╱╱╱╱╱╭╮╱╱╱╱╭╮╱╭╮╱╱╱╱╭╮╱╱╭━━━┳━━━┳━━━┳━━━╮
+╱╱╱╱╱╱╱╱╱╱╱╭╯╰╮╱╱╱╱╱╱╱╱┃┃╱╱╱┃┃╱╱╱╱╱╱╱╱┃┃╱╱╱╱┃┃╱┃┃╱╱╱╱┃┃╱╱┃╭━╮┃╭━╮┃╭━╮┃╭━╮┃
+╭━━┳━━┳━┳┳━┻╮╭╯╭╮╭┳━━┳━╯┣━━╮┃╰━┳╮╱╭╮╭━╯┣━━┳━┫┃╭┫╰━┳━━┫┃╭━┻┫╭╯┃╰━╯┣╯╭╯┣╯╭╯┃
+┃━━┫╭━┫╭╋┫╭╮┃┃╱┃╰╯┃╭╮┃╭╮┃┃━┫┃╭╮┃┃╱┃┃┃╭╮┃╭╮┃╭┫╰╯┫╭╮┃╭╮┃┃┃╭╮┃┃╭┫╭━╮┣╮╰╮┣╮╰╮┃
+┣━━┃╰━┫┃┃┃╰╯┃╰╮┃┃┃┃╭╮┃╰╯┃┃━┫┃╰╯┃╰━╯┃┃╰╯┃╭╮┃┃┃╭╮┫┃┃┃╭╮┃╰┫╰╯┃┃┃┃╰━╯┃╰━╯┃╰━╯┃
+╰━━┻━━┻╯╰┫╭━┻━╯╰┻┻┻╯╰┻━━┻━━╯╰━━┻━╮╭╯╰━━┻╯╰┻╯╰╯╰┻╯╰┻╯╰┻━┻━━╯╰╯╰━━━┻━━━┻━━━╯
+╱╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
+╱╱╱╱╱╱╱╱╱╰╯╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+--]]
+
+while wait(0.1) do
+    firesignal(plr.PlayerGui.mainUI.clickerButton.MouseButton1Click)
+end
+while wait(10) do
+    firesignal(plr.PlayerGui.mainUI.rebirthBackground.Background.Background.ScrollingFrame[1].MouseButton1Click)
+end
