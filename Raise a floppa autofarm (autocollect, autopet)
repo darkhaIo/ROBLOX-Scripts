@@ -1,0 +1,19 @@
+local hrp = game.Players.LocalPlayer.Character.HumanoidRootPart
+local plr = game.Players.LocalPlayer
+local money = workspace.Money.TouchInterest
+
+while wait() do
+    fireclickdetector(workspace.Floppa.ClickDetector)
+    if AutoPet == true then
+        plr.Character.Humanoid.WalkSpeed = 16
+        fireproximityprompt(workspace.Floppa.HumanoidRootPart.PetPrompt)
+    if CollectCash == true then
+        for i, v in pairs(workspace:GetDescendants()) do
+            if v.Name == "Money" then
+                firetouchinterest(hrp, v, 0)
+                wait()
+end
+end
+end
+end
+end
