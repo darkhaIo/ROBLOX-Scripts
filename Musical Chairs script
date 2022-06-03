@@ -1,0 +1,15 @@
+while wait(0.1) do
+local ws = game:GetService("Workspace")
+local plr = game.Players.LocalPlayer
+
+for i, v in pairs(ws:GetDescendants()) do
+    if v:IsA("Seat") then
+        if v.Occupant == nil then
+            plr.Character.HumanoidRootPart.CFrame = v.CFrame
+            print("Found "..i.." seat(s)")        
+        else
+            plr.Character.HumanoidRootPart.CFrame = CFrame.new(155,155,155)
+        end
+    end
+end
+end
